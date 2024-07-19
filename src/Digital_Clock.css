@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Noto Serif", sans-serif;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center;
+    background-image: url(https://wallpaper.forfun.com/fetch/0b/0bc739968eeb709d8eebbdb132141cb8.jpeg?download=words-motivatsiya-fraza-noutbuk-slova-nadpis-74121.jpeg);
+    display: flex;
+    
+}
+.digital-clock{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.096);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    margin-top: 30%;
+    margin-left: 250%;
+}
+h1{
+    color: #0182d8;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.time{
+    margin-bottom: 15px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #f2e6e8;
+}
+.date{
+    font-size: 20px;
+    color: #79594c;
+    margin-bottom: 15px;
+}
+.copyright{
+    font-size: 12px;
+    color: #2f2e2e;
+    text-align: center;
+    margin-bottom: -10px;
+}
+.copyright span{
+    color: #f60b0a;
+}

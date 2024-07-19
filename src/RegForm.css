@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+table{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+table td{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+table td:first-child{
+    font-weight: 600;
+}
+form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 10px;
+}
+.select-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

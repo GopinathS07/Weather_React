@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Noto Serif", sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ff5679;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    color: white;
+    text-align: center;
+}
+div h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+div button{
+    border: none;
+    background-color: #9942e2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+b{
+    color: #3e439d;
+}

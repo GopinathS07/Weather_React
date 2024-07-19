@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../public/img/bmi-bg.jpg);;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bmi-calculator{
+    background-color: #ffffffdd;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+}
+.box{
+    width: 350px;
+    background-image: url(../public/img/bmi.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 70px 20px;
+}
+.data{
+    flex: 1;
+    padding: 10px;
+}
+h1{
+    color: #53392b;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+.input-container{
+    margin-bottom: 15px;
+  }
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+#height{
+    border: 1px solid #3c42d2;
+}
+#weight{
+    border: 1px solid #fc2662;
+}
+button {
+    background-color: #715b4f;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+  }
+button:hover {
+    background-color: #819560;
+  }
+.data button:nth-of-type(2){
+    margin-left: 20px;
+    background-color: #aa2a18;
+}
+.data button:nth-of-type(2):hover {
+    background-color: #da432e;
+  }
+label{
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+  }
+.result{
+    font-size: 20px; 
+    padding: 10px;
+    border: 3px solid #819560;
+    border-radius: 4px;
+  }
+.result p{
+    margin: 10px;
+}
+.result p:first-child{
+    font-weight: bold;
+    color: #f47900;
+}
+.error{
+    font-size: 14px;
+    color: red;
+    margin: 10px 0px;
+}
+.copyright{
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+    margin-top: -30px;
+}
+.copyright span{
+    color: #f60b0a;
+}
